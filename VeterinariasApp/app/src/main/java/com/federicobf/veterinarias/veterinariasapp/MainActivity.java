@@ -1,6 +1,7 @@
 package com.federicobf.veterinarias.veterinariasapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;
@@ -144,6 +145,9 @@ public class MainActivity extends ActionBarActivity
             ((MainActivity) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
+    }
+    public void sosUnPutoQueSeLaComeDoblada (View view){
+        
     }
 
 }
