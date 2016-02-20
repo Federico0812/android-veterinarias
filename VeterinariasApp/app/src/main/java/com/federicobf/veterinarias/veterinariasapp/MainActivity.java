@@ -72,6 +72,9 @@ public class MainActivity extends ActionBarActivity
     }
 
     public void restoreActionBar() {
+
+        // LA CONCHA DE TU HERMANA ALL BOYS
+
         ActionBar actionBar = getSupportActionBar();
         actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_STANDARD);
         actionBar.setDisplayShowTitleEnabled(true);
